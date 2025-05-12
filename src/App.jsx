@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import { RouterProvider } from "react-router";
 import First from "./pages/First";
-import Login from "./pages/login";
+import Login from "./pages/Login";
 import Home from "./pages/Home";
 import ProtectedRoute from "./components/ProtectedRoute";
 import AuthListener from "./components/AuthListner";
