@@ -1,3 +1,33 @@
+# Clone of Drive
+
+Clone of Google Drive is a file management application built with **React**, **Redux Toolkit**, **Firebase Authentication**, and **Cloudinary** for media storage. This app mimics Google Drive's functionality, allowing users to upload, view, and manage their files.
+
+## Features
+
+- **Authentication**: Users can sign up, log in, and log out using **Firebase Authentication**.
+- **File Upload**: Upload files directly to Cloudinary and view them in a grid.
+- **State Management**: **Redux Toolkit** is used for managing the global state, including user authentication status and file data.
+- **Responsive Design**: The application is designed to be responsive, offering a great experience on both desktop and mobile devices.
+- **File Storage**: Files are stored and managed in **Cloudinary** for secure and scalable media storage.
+
+## Technologies Used
+
+- **React**: Frontend JavaScript library for building the user interface.
+- **Redux Toolkit**: State management tool for managing the application's global state.
+- **Firebase Authentication**: To handle user sign-up, login, and session management.
+- **Cloudinary**: For file uploading and storage.
+- **Axios**: For API requests to **Cloudinary**.
+- **Tailwind CSS**: For styling and responsive design.
+- **React Icons**: Used to display icons throughout the application.
+
+## Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/clone-of-drive.git
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
