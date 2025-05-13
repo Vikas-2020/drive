@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { driveSlice } from "./slices/driveSlice";
+import {fileSlice} from "./slices/fileSlice"
 import { authSlice } from "./slices/authSlice";
 const store = configureStore({
   reducer: {
-    drive: driveSlice,
+    files: fileSlice,
     auth: authSlice,
   },
 });
